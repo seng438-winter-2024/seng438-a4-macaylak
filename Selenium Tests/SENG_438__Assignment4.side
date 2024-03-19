@@ -1,0 +1,2091 @@
+{
+  "id": "0e248a8b-0247-416e-9552-2252ae6b50ef",
+  "version": "2.0",
+  "name": "SENG_438_ Assignment4",
+  "url": "https://www.samsung.com/",
+  "tests": [{
+    "id": "1d3dc219-4479-4d60-8f52-99332223a206",
+    "name": "ChangeLanguage_French_From_English",
+    "commands": [{
+      "id": "d7c2567f-0890-4798-9ccf-7675171a276c",
+      "comment": "",
+      "command": "open",
+      "target": "/ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d46356b-6294-45f0-bd94-e4f7568fb840",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "789x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "913ab67d-b55c-4fcd-be74-827995a30e90",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b900a5f7-d046-4de9-8eba-a74c16ac83f2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3362.39990234375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8df32b4-f280-4d75-85f9-fdee37d57503",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.footer-language:nth-child(1) > .footer-language__anchor",
+      "targets": [
+        ["css=.footer-language:nth-child(1) > .footer-language__anchor", "css:finder"],
+        ["xpath=(//button[@type='button'])[73]", "xpath:attributes"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//footer/div/div[2]/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33432d2a-70cf-420e-8ba7-48a3c20b7a77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer-language:nth-child(1) > .footer-language__anchor",
+      "targets": [
+        ["css=.footer-language:nth-child(1) > .footer-language__anchor", "css:finder"],
+        ["xpath=(//button[@type='button'])[73]", "xpath:attributes"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//footer/div/div[2]/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "623417d1-8912-425f-a029-83da3ba80e9b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.footer-language:nth-child(1) > .footer-language__anchor",
+      "targets": [
+        ["css=.footer-language:nth-child(1) > .footer-language__anchor", "css:finder"],
+        ["xpath=(//button[@type='button'])[73]", "xpath:attributes"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//footer/div/div[2]/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20e14c19-fa92-4b81-8a0f-457998106cbd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.footer-language__list:nth-child(1) > .footer-language__item:nth-child(2) > .footer-language__link",
+      "targets": [
+        ["css=.footer-language__list:nth-child(1) > .footer-language__item:nth-child(2) > .footer-language__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Canada/Français')])[2]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div[2]/div/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ca_fr/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ce018f9-0b51-4377-8040-e8875e4576ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer-language__list:nth-child(1) > .footer-language__item:nth-child(2) > .footer-language__link",
+      "targets": [
+        ["css=.footer-language__list:nth-child(1) > .footer-language__item:nth-child(2) > .footer-language__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Canada/Français')])[2]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div[2]/div/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ca_fr/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cde63e27-7cc2-4c31-abfa-8dc15491506c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.footer-language__list:nth-child(1) > .footer-language__item:nth-child(2) > .footer-language__link",
+      "targets": [
+        ["css=.footer-language__list:nth-child(1) > .footer-language__item:nth-child(2) > .footer-language__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Canada/Français')])[2]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div[2]/div/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ca_fr/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c71c2b4d-a6c5-4125-9215-ab237171335b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cm-g-text-block-container:nth-child(2) .text-block-container__headline",
+      "targets": [
+        ["css=.cm-g-text-block-container:nth-child(2) .text-block-container__headline", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[2]/div/div[2]/section/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Nouvelles offres et innovations')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45d71bcd-df69-4bc1-a2f2-349d5ff03dbe",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.cm-g-text-block-container:nth-child(2) .text-block-container__headline",
+      "targets": [
+        ["css=.cm-g-text-block-container:nth-child(2) .text-block-container__headline", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[2]/div/div[2]/section/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Nouvelles offres et innovations')]", "xpath:innerText"]
+      ],
+      "value": "Nouvelles offres et innovations"
+    }]
+  }, {
+    "id": "b2ec4730-b46d-4748-9d3e-0d9ce190dc24",
+    "name": "ChangeLanguage_English_From_French",
+    "commands": [{
+      "id": "c4e05173-c0f6-4acf-9446-3d55af3d6068",
+      "comment": "",
+      "command": "open",
+      "target": "/ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6688e70c-a2d1-45af-8923-89e333959c93",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79df2208-98e9-4056-ac86-4e7bba14264a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,976.7999877929688)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dba6cb85-ec05-4d9f-b7fc-6ae05ba561fb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6812)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "295e75fc-896f-46a2-8b98-6ccad62eee66",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.footer-language:nth-child(1) > .footer-language__anchor",
+      "targets": [
+        ["css=.footer-language:nth-child(1) > .footer-language__anchor", "css:finder"],
+        ["xpath=(//button[@type='button'])[73]", "xpath:attributes"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//footer/div/div[2]/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96053716-3b96-40f5-8a62-39157fd1322c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer-language:nth-child(1) > .footer-language__anchor",
+      "targets": [
+        ["css=.footer-language:nth-child(1) > .footer-language__anchor", "css:finder"],
+        ["xpath=(//button[@type='button'])[73]", "xpath:attributes"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//footer/div/div[2]/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0a267bd-6dc7-4ea3-8b81-87b4fdf27fb7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.footer-language:nth-child(1) > .footer-language__anchor",
+      "targets": [
+        ["css=.footer-language:nth-child(1) > .footer-language__anchor", "css:finder"],
+        ["xpath=(//button[@type='button'])[73]", "xpath:attributes"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//footer/div/div[2]/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4602679-a59f-4124-a105-4fb21d985d47",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.footer-language__list:nth-child(1) > .footer-language__item:nth-child(1) > .footer-language__link",
+      "targets": [
+        ["css=.footer-language__list:nth-child(1) > .footer-language__item:nth-child(1) > .footer-language__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Canada/English')])[2]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div[2]/div/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ca/')])[410]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62aa20d7-aa94-4194-bdef-831b22fdea04",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.footer-language__list:nth-child(1) > .footer-language__item:nth-child(1) > .footer-language__link",
+      "targets": [
+        ["css=.footer-language__list:nth-child(1) > .footer-language__item:nth-child(1) > .footer-language__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Canada/English')])[2]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div[2]/div/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ca/')])[410]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ccc2283-de04-473b-a52e-259c106d5def",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer-language__list:nth-child(1) > .footer-language__item:nth-child(2) > .footer-language__link",
+      "targets": [
+        ["css=.footer-language__list:nth-child(1) > .footer-language__item:nth-child(2) > .footer-language__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Canada/Français')])[2]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div[2]/div/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ca_fr/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "081ead47-9dd7-4cf1-b2b6-a19b4e41346f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5616.7998046875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1d81071-4548-4eb3-af80-adcc6d919861",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.footer-language:nth-child(1) > .footer-language__anchor",
+      "targets": [
+        ["css=.footer-language:nth-child(1) > .footer-language__anchor", "css:finder"],
+        ["xpath=(//button[@type='button'])[71]", "xpath:attributes"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//footer/div/div[2]/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67c9b100-365b-4d38-8544-17785b7a1e69",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer-language:nth-child(1) > .footer-language__anchor",
+      "targets": [
+        ["css=.footer-language:nth-child(1) > .footer-language__anchor", "css:finder"],
+        ["xpath=(//button[@type='button'])[71]", "xpath:attributes"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//footer/div/div[2]/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be5619cc-99c0-4ad5-9887-b5becb60e934",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.footer-language:nth-child(1) > .footer-language__anchor",
+      "targets": [
+        ["css=.footer-language:nth-child(1) > .footer-language__anchor", "css:finder"],
+        ["xpath=(//button[@type='button'])[71]", "xpath:attributes"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//footer/div/div[2]/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef44c2c3-13f4-4986-9217-eb7d67b27f2f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.footer-language__list:nth-child(1) > .footer-language__item:nth-child(1) > .footer-language__link",
+      "targets": [
+        ["css=.footer-language__list:nth-child(1) > .footer-language__item:nth-child(1) > .footer-language__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Canada/English')])[2]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div[2]/div/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ca/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c87eb0bb-7d70-4d4a-ba97-3efca881c5f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer-language__list:nth-child(1) > .footer-language__item:nth-child(1) > .footer-language__link",
+      "targets": [
+        ["css=.footer-language__list:nth-child(1) > .footer-language__item:nth-child(1) > .footer-language__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Canada/English')])[2]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div[2]/div/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ca/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1782b64-9b83-4583-bd8d-70b4f46a724d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.footer-language__list:nth-child(1) > .footer-language__item:nth-child(1) > .footer-language__link",
+      "targets": [
+        ["css=.footer-language__list:nth-child(1) > .footer-language__item:nth-child(1) > .footer-language__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Canada/English')])[2]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div[2]/div/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ca/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e1112e6-280a-4b99-8714-76cacf8d5d9e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c08a1504-fdfc-4187-943d-1a1535314c4c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3.200000047683716)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3364539-1b6c-4119-bd55-b2f159f8fd83",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cm-g-text-block-container:nth-child(3) .text-block-container__headline",
+      "targets": [
+        ["css=.cm-g-text-block-container:nth-child(3) .text-block-container__headline", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[2]/div/div[3]/section/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Newest Offers and Innovations')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c318747-0218-4fce-8989-22fd42f38376",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "css=.cm-g-text-block-container:nth-child(3) .text-block-container__headline",
+      "targets": [],
+      "value": "Newest Offers and Innovations"
+    }, {
+      "id": "4dd478d5-6207-49e8-bd8d-e6d48d66d411",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4940b452-535a-4564-b2f5-a6d2f8634ade",
+    "name": "ChangeLanguage_Different_LanguageAndLocation",
+    "commands": [{
+      "id": "ad3c3ea5-c40b-4c7e-8251-a26ad13f3734",
+      "comment": "",
+      "command": "open",
+      "target": "/ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b57a072-5698-4f05-b1c7-4493465992cf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "783x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bbd030f-3f3a-41ad-829a-01b9acdcb2b0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "574f063f-d12d-4d6d-8116-5030dcbd0950",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e423da38-a417-4ba0-b9d7-574d694cc260",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,541.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b4fb5f7-55dd-4f02-aa9f-ebe271fcea56",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3285.60009765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ddc54d5-6055-4666-a1d2-eb0108059dc4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3328)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2eff99ec-1333-4db0-8a61-bd728ab38650",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.footer-language:nth-child(1) > .footer-language__anchor",
+      "targets": [
+        ["css=.footer-language:nth-child(1) > .footer-language__anchor", "css:finder"],
+        ["xpath=(//button[@type='button'])[73]", "xpath:attributes"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//footer/div/div[2]/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32a0be7d-f461-4845-a030-79eeb14a5d1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer-language:nth-child(1) > .footer-language__anchor",
+      "targets": [
+        ["css=.footer-language:nth-child(1) > .footer-language__anchor", "css:finder"],
+        ["xpath=(//button[@type='button'])[73]", "xpath:attributes"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//footer/div/div[2]/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69ce82c0-7bdb-4068-8d73-e7fe145805c4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.footer-language:nth-child(1) > .footer-language__anchor",
+      "targets": [
+        ["css=.footer-language:nth-child(1) > .footer-language__anchor", "css:finder"],
+        ["xpath=(//button[@type='button'])[73]", "xpath:attributes"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//footer/div/div[2]/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "375a503a-ac48-43c9-b046-8ac460ea838c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer-language__link:nth-child(2)",
+      "targets": [
+        ["css=.footer-language__link:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Choose Your Location')])[2]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div[2]/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ca/function/ipredirection/ipredirectionLocalList/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "150b30e1-b949-4513-a207-fc54b73be0c9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Angola / Português",
+      "targets": [
+        ["linkText=Angola / Português", "linkText"],
+        ["css=.ao:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Angola / Português')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/section/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.samsung.com/africa_pt/')]", "xpath:href"],
+        ["xpath=//section/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Angola / Português')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb194869-bf97-4cd3-bf4c-bbddf249f6f2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=NO",
+      "targets": [
+        ["linkText=NO", "linkText"],
+        ["css=.visit-your-location__layer-popup-btn:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'NO')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/section/div[2]/div[2]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '//www.samsung.com/africa_pt/')])[6]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'NO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1657e405-7ed4-461f-b9e2-8c4cdd3fdc41",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cm-g-text-block-container:nth-child(3) .text-block-container__headline",
+      "targets": [
+        ["css=.cm-g-text-block-container:nth-child(3) .text-block-container__headline", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[2]/div/div[3]/section/div/div/h2", "xpath:idRelative"],
+        ["xpath=//section/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Escolhas Deste Mês')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd6b45eb-5090-4628-b4d7-7196c38465a0",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.cm-g-text-block-container:nth-child(3) .text-block-container__headline",
+      "targets": [
+        ["css=.cm-g-text-block-container:nth-child(3) .text-block-container__headline", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[2]/div/div[3]/section/div/div/h2", "xpath:idRelative"],
+        ["xpath=//section/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Escolhas Deste Mês')]", "xpath:innerText"]
+      ],
+      "value": "Escolhas Deste Mês"
+    }]
+  }, {
+    "id": "239f1ad0-bae8-4236-befb-3b944097f192",
+    "name": "SupportButton_Footer",
+    "commands": [{
+      "id": "66938f8a-1c6b-4e78-ae8d-048db27444d3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.samsung.com/ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c396087d-9cda-48d0-ac83-3b2731adb9ee",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe524666-7b86-42fa-b60e-8b7bae17b90f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08ba46b5-f3f7-436b-906b-30565802ccda",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,942.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af3803ae-53ca-40bc-b23e-00b97beac15d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3100.800048828125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3589f775-7c10-4f91-a5f5-27ebeebc73b1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5977.60009765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1f43419-6606-4c8e-8b2a-71d55cbe6921",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b706114-a981-4895-8943-1d548ce67866",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1454.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1c0af5e-7af0-47f8-9e49-71731a970817",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6760.7998046875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9635ebb8-ea4e-4222-9c66-191064b17641",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.footer-local-logo__link .image__main",
+      "targets": [
+        ["css=.footer-local-logo__link .image__main", "css:finder"],
+        ["xpath=//img[@alt='accessibility']", "xpath:img"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div/div[3]/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d58a82e4-0612-4bd8-9671-1c8775209611",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer-local-logo__link .image__main",
+      "targets": [
+        ["css=.footer-local-logo__link .image__main", "css:finder"],
+        ["xpath=//img[@alt='accessibility']", "xpath:img"],
+        ["xpath=//div[@id='wrap']/footer/div/div[2]/div/div[3]/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acf2ce31-bc18-46ee-8684-4efc8cc43856",
+      "comment": "",
+      "command": "click",
+      "target": "css=.explore-lnb__title",
+      "targets": [
+        ["css=.explore-lnb__title", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "642b9396-9387-433c-b383-ea2fa3f6f324",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Product Help & Support | Samsung CA",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc358d13-d10e-47f1-970a-b253f3849dc5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6d593d9c-3bf0-4d71-94b1-ac52532f8dbe",
+    "name": "Browse_TVs",
+    "commands": [{
+      "id": "41fb425f-7ec9-49b6-b3aa-5636c0ce8881",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.samsung.com/ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3842bb9d-7b23-4c8d-bc4b-e3db0cada1ad",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "793x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a53c84bf-93f1-4094-a3cc-ac49a1d670fc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9be4c4d-f5db-4b51-87c0-d2c64ead1d39",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mobile-only > .icon",
+      "targets": [
+        ["css=.mobile-only > .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "634dcb59-5c94-484c-8bb7-6f01e1c4d035",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mobile-only > .icon",
+      "targets": [
+        ["css=.mobile-only > .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaa332d6-e241-46d5-8ea4-e74e8e664502",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mobile-only > .icon > use",
+      "targets": [
+        ["css=.mobile-only > .icon > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5de0702-49e4-4b0a-a5e2-f906f98a62d8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mobile-only > .icon > use",
+      "targets": [
+        ["css=.mobile-only > .icon > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ae5b19a-bec3-476d-963a-0fc8ddfd0fe7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=LOG IN/Sign-Up",
+      "targets": [
+        ["linkText=LOG IN/Sign-Up", "linkText"],
+        ["css=.before-login > .nv00-gnb__utility-btn", "css:finder"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[5]/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[3]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d13af1ac-c94c-4060-922a-cf75a2e72564",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=LOG IN/Sign-Up",
+      "targets": [
+        ["linkText=LOG IN/Sign-Up", "linkText"],
+        ["css=.before-login > .nv00-gnb__utility-btn", "css:finder"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[5]/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[3]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5779eb17-346f-4514-b237-092e762bd67e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hamburger use",
+      "targets": [
+        ["css=.hamburger use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "be2612e3-774d-44f7-b589-9739308e9ab2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hamburger use",
+      "targets": [
+        ["css=.hamburger use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "33d29104-240f-4e86-bf39-374f37b92046",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hamburger use",
+      "targets": [
+        ["css=.hamburger use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "66a11cd2-f726-4b98-8225-4a0f4329e341",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nv00-gnb__close-btn use",
+      "targets": [
+        ["css=.nv00-gnb__close-btn use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bbe7988-a29b-4b6f-800a-0ec761b205f0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.nv00-gnb__close-btn use",
+      "targets": [
+        ["css=.nv00-gnb__close-btn use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd354e59-50ce-400d-b2f0-1a24b5bdf0a2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.left-menu > .nv00-gnb__l0-menu:nth-child(1) > .nv00-gnb__l0-menu-btn",
+      "targets": [
+        ["css=.left-menu > .nv00-gnb__l0-menu:nth-child(1) > .nv00-gnb__l0-menu-btn", "css:finder"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[4]/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac45a085-7531-4c49-a4c3-93e77e5e9bfd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.left-menu > .nv00-gnb__l0-menu:nth-child(1) > .nv00-gnb__l0-menu-btn",
+      "targets": [
+        ["css=.left-menu > .nv00-gnb__l0-menu:nth-child(1) > .nv00-gnb__l0-menu-btn", "css:finder"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[4]/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6dec23a0-f03d-42e8-978f-df4947f3c722",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nv00-gnb__l0-menu:nth-child(2) > .nv00-gnb__l0-menu-btn",
+      "targets": [
+        ["css=.nv00-gnb__l0-menu:nth-child(2) > .nv00-gnb__l0-menu-btn", "css:finder"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[4]/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Mobile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92c4ba24-a042-4e52-8bf7-fce18b16a5ec",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.nv00-gnb__l0-menu:nth-child(2) > .nv00-gnb__l0-menu-btn",
+      "targets": [
+        ["css=.nv00-gnb__l0-menu:nth-child(2) > .nv00-gnb__l0-menu-btn", "css:finder"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[4]/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Mobile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9594781-3591-4365-a335-6d742b18a36c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nv00-gnb__l0-menu:nth-child(3) > .nv00-gnb__l0-menu-btn",
+      "targets": [
+        ["css=.nv00-gnb__l0-menu:nth-child(3) > .nv00-gnb__l0-menu-btn", "css:finder"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[4]/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'TV & AV')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a552834f-bbfb-437b-8bce-e41f1bdb13a3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.nv00-gnb__l0-menu:nth-child(3) > .nv00-gnb__l0-menu-btn",
+      "targets": [
+        ["css=.nv00-gnb__l0-menu:nth-child(3) > .nv00-gnb__l0-menu-btn", "css:finder"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[4]/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'TV & AV')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "678355ab-318b-4dd2-8106-84cf63b5c229",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nv00-gnb__l0-menu:nth-child(3) > .nv00-gnb__l0-menu-btn",
+      "targets": [
+        ["css=.nv00-gnb__l0-menu:nth-child(3) > .nv00-gnb__l0-menu-btn", "css:finder"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[4]/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'TV & AV')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b55ba0ce-bdf9-479b-aca7-adfe85edd296",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nv00-gnb__l0-menu:nth-child(3) > .nv00-gnb__l0-menu-btn > .icon",
+      "targets": [
+        ["css=.nv00-gnb__l0-menu:nth-child(3) > .nv00-gnb__l0-menu-btn > .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e982bc7-cf8d-4720-9dca-0832b6e09bc2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.nv00-gnb__l0-menu:nth-child(3) > .nv00-gnb__l0-menu-btn > .icon",
+      "targets": [
+        ["css=.nv00-gnb__l0-menu:nth-child(3) > .nv00-gnb__l0-menu-btn > .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "098e55a0-72ac-4dae-8d08-bd31d8b255ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show > .nv00-gnb__l1-menu-wrap:nth-child(3) .nv00-gnb__l1-menu-btn",
+      "targets": [
+        ["css=.show > .nv00-gnb__l1-menu-wrap:nth-child(3) .nv00-gnb__l1-menu-btn", "css:finder"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[4]/ul/li[3]/div/div[2]/div/h3", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div[2]/div/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'TVs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dbbdbe6-0a91-43f4-b01f-55f5e04ba698",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=All TVs",
+      "targets": [
+        ["linkText=All TVs", "linkText"],
+        ["css=.show > .nv00-gnb__l1-menu-wrap:nth-child(3) .nv00-gnb__l2-menu:nth-child(1) > .nv00-gnb__l2-menu-link", "css:finder"],
+        ["xpath=//a[contains(text(),'All TVs')]", "xpath:link"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[4]/ul/li[3]/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ca/tvs/all-tvs/?available-to-order')]", "xpath:href"],
+        ["xpath=//li[3]/div/div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'All TVs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b9d7391-bca3-46aa-8a5e-962486be4f5a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7c8d7e2-7d04-4449-87ea-d4b63fe193e1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7602570-2dd0-4ab2-9bf4-7effd3e76c4c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "392ddbb3-78f9-4220-b15b-625ca23f553b",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Samsung TVs & Smart TVs | Samsung Canada",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e335e3da-62f1-4c0a-981f-d4379298a4c8",
+    "name": "Open_SupportChat",
+    "commands": [{
+      "id": "1fbf1668-f00b-4e61-addc-a74061b2b92b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.samsung.com/ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82c23a83-e8cc-4a2a-848f-ff65ddc76d2f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "785x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce37510a-f42f-4e6a-8def-dc1379bdbb04",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4ec9e66-67ac-45c4-8e28-538d2092d956",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2264.800048828125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac8238db-0eda-4f30-8e57-1396f9780385",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3342.39990234375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7a67bfa-dbb1-4f8d-b73a-e5544046a0bf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3341.60009765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91adc504-0dea-4789-bfff-3926b5029ba5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3337.60009765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9578ac6d-57c2-4564-9324-65b21a024456",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-17ehq8p",
+      "targets": [
+        ["css=.css-17ehq8p", "css:finder"],
+        ["xpath=//div[@id='spr-chat__trigger-button']/div", "xpath:idRelative"],
+        ["xpath=//body/div[3]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "672f82ae-552d-44ad-a41d-5071aec5f8ff",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=14",
+      "targets": [
+        ["index=14"]
+      ],
+      "value": ""
+    }, {
+      "id": "43d0971f-67fc-4442-9ad7-cb0423f6420f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a44dc48e-3eab-47cd-b339-54e98a7c5a96",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex-item-auto",
+      "targets": [
+        ["css=.flex-item-auto", "css:finder"],
+        ["xpath=//main/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f28f10d-f3cc-431b-97d5-ad3157a8a0e5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.css-15zuzsj",
+      "targets": [
+        ["css=.css-15zuzsj", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Chat with a Samsung Expert')]", "xpath:innerText"]
+      ],
+      "value": "Chat with a Samsung Expert"
+    }]
+  }, {
+    "id": "187d35c9-6979-47cd-a389-7609365076b8",
+    "name": "End_SupportChat",
+    "commands": [{
+      "id": "f9e520b8-12ba-4f9b-8777-a414c2473858",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.samsung.com/ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d14d3ef-1829-446b-b496-55c3a9416aaa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70bba8d2-33c6-40f5-b954-68f56e8af674",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c04e7f99-5689-4314-ae7a-82acb7623596",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nv00-gnb__logo > .icon",
+      "targets": [
+        ["css=.nv00-gnb__logo > .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ad5a58d-ed84-4d90-b55f-98ef439b7bec",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.nv00-gnb__logo > .icon",
+      "targets": [
+        ["css=.nv00-gnb__logo > .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b76f34d2-3be7-436c-8437-0d750f3659d4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,66.4000015258789)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee7680b7-4ec2-4ea8-a1de-89386e4788b0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,124)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "861a6d8e-c045-41eb-a9fa-ba2a164eb88b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3344.800048828125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6449d2a-df82-419f-907e-2ec40fe21575",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Offers",
+      "targets": [
+        ["linkText=Offers", "linkText"],
+        ["css=.footer-column__item:nth-child(3) .footer-category__item:nth-child(1) > .footer-category__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Offers')])[15]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/footer/div/div/div[2]/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//shop.samsung.com/ca/promotions')]", "xpath:href"],
+        ["xpath=//div/div[2]/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4339f46c-bab5-4b4e-bd69-94a4c5e388f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-17ehq8p",
+      "targets": [
+        ["css=.css-17ehq8p", "css:finder"],
+        ["xpath=//div[@id='spr-chat__trigger-button']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c74d133-4e7b-4ba3-8858-0da27d2c57b1",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=14",
+      "targets": [
+        ["index=14"]
+      ],
+      "value": ""
+    }, {
+      "id": "10cf1057-70a9-4209-9fd6-0d8fc9a67027",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-11umpck:nth-child(1) .css-jxkh2s",
+      "targets": [
+        ["css=.css-11umpck:nth-child(1) .css-jxkh2s", "css:finder"],
+        ["xpath=//div[@id='65f7e3f31c5e6d429c4f38fb']/div[2]/div/div/div/div/div/div/div/div/div[2]/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8ec5b7c-a35b-4fa6-9a96-86dfe8dc66c0",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "00629d94-bcd0-476a-875a-09992d18e34e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3344)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3a4f5ab-03df-4f87-8a59-8e5afe55242b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=14",
+      "targets": [
+        ["index=14"]
+      ],
+      "value": ""
+    }, {
+      "id": "adffae89-cd87-4300-8f83-37ae27f58ae4",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.css-1mhzsiz",
+      "targets": [
+        ["css=.css-1mhzsiz", "css:finder"]
+      ],
+      "value": "14,17"
+    }, {
+      "id": "b5d64e61-be05-40a2-81a7-a8383202bfdf",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.css-1mhzsiz",
+      "targets": [
+        ["css=.css-1mhzsiz", "css:finder"]
+      ],
+      "value": "14,17"
+    }, {
+      "id": "f865587e-08ba-4d42-8c7a-396b230dd661",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.css-1mhzsiz",
+      "targets": [
+        ["css=.css-1mhzsiz", "css:finder"]
+      ],
+      "value": "14,17"
+    }, {
+      "id": "223a0251-1e8d-474b-a680-f21e1614e901",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1mhzsiz",
+      "targets": [
+        ["css=.css-1mhzsiz", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd97a612-728c-47a7-9586-d47b00f4a5fb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-1mhzsiz",
+      "targets": [
+        ["css=.css-1mhzsiz", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0f5dbe5-d366-4d40-9c0d-a26729ca1cd2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-wrap:nth-child(2)",
+      "targets": [
+        ["css=.text-wrap:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/div/div/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'End Chat')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "418d96f1-7eb5-4ded-886d-0163b6bb9218",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirmation-box-header",
+      "targets": [
+        ["id=confirmation-box-header", "id"],
+        ["css=#confirmation-box-header", "css:finder"],
+        ["xpath=//div[@id='confirmation-box-header']", "xpath:attributes"],
+        ["xpath=//main/div[3]/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad5075b6-c55d-44e4-b0df-8914129cbf1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-kfe2o",
+      "targets": [
+        ["css=.css-kfe2o", "css:finder"],
+        ["xpath=//main/div[3]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1161af41-eb5c-48e0-b25c-ade8e100bb71",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=confirmation-box-header",
+      "targets": [
+        ["id=confirmation-box-header", "id"],
+        ["css=#confirmation-box-header", "css:finder"],
+        ["xpath=//div[@id='confirmation-box-header']", "xpath:attributes"],
+        ["xpath=//main/div[3]/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "Close conversation"
+    }, {
+      "id": "3bd9274b-bb73-45a5-8c87-3d438ccec2ad",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ac027e3-555d-41d8-b0e1-5034d37660c6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#nebula_div_btn > img",
+      "targets": [
+        ["css=#nebula_div_btn > img", "css:finder"],
+        ["xpath=//img[@alt='Feedback']", "xpath:img"],
+        ["xpath=//button[@id='nebula_div_btn']/img", "xpath:idRelative"],
+        ["xpath=//button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4770c1d-7073-49db-b776-e73dbe34334d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#nebula_div_btn > img",
+      "targets": [
+        ["css=#nebula_div_btn > img", "css:finder"],
+        ["xpath=//img[@alt='Feedback']", "xpath:img"],
+        ["xpath=//button[@id='nebula_div_btn']/img", "xpath:idRelative"],
+        ["xpath=//button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa476d19-fe9a-4cdc-84c3-168d6ec669a5",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=14",
+      "targets": [
+        ["index=14"]
+      ],
+      "value": ""
+    }, {
+      "id": "045f64b4-aa64-44a7-96ab-19eb609a7f20",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-ms3icc",
+      "targets": [
+        ["css=.css-ms3icc", "css:finder"],
+        ["xpath=//div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Close')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37a3178d-c445-4342-9423-1771d9e05ac4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ad6687e-93c1-43de-94e0-6815f0a19002",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1usua7i",
+      "targets": [
+        ["css=.css-1usua7i", "css:finder"],
+        ["xpath=//main/div[2]/div/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f796672b-39cf-4974-93ab-bd58ac1edf21",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.text-wrap > span",
+      "targets": [
+        ["css=.text-wrap > span", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'The conversation has been closed')]", "xpath:innerText"]
+      ],
+      "value": "The conversation has been closed"
+    }, {
+      "id": "f65fdbb7-490c-413d-89d9-c1b94116af29",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ff1fa47e-c670-41f9-90f7-6c5b07ee9963",
+    "name": "CreateNew_SupportChat",
+    "commands": [{
+      "id": "b31ed777-6a7d-40d8-a321-46c62e3d13a2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.samsung.com/ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "315e127e-3645-47e7-8d7e-81d68a956c71",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a9eb8a6-48af-465e-aa9c-2f249ded716e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d4a2980-a7b3-434d-bb49-274651a7b3bd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100.80000305175781)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63a60d31-416e-428a-985e-8ca494f03837",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3344.800048828125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "987688e0-8f84-42c8-9df3-2fabf9f434fd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3339.199951171875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "930a02fa-0c1c-494c-90a7-908b98f887fc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Environment",
+      "targets": [
+        ["linkText=Environment", "linkText"],
+        ["css=.footer-column__item:nth-child(6) > .footer-category:nth-child(1) .footer-category__item:nth-child(1) > .footer-category__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Environment')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/footer/div/div/div[5]/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ca/sustainability/environment/')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Environment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f09d7e8-a93a-4125-999f-877219cb5c1d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Environment",
+      "targets": [
+        ["linkText=Environment", "linkText"],
+        ["css=.footer-column__item:nth-child(6) > .footer-category:nth-child(1) .footer-category__item:nth-child(1) > .footer-category__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Environment')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/footer/div/div/div[5]/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ca/sustainability/environment/')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Environment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cc49dc6-0f88-4f44-b03b-370cbde93eb3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3344.800048828125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c66284f1-2609-4c1a-984a-02eea94b4604",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-17ehq8p",
+      "targets": [
+        ["css=.css-17ehq8p", "css:finder"],
+        ["xpath=//div[@id='spr-chat__trigger-button']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95b5f6ce-d0ba-4772-ba44-88f908d2f9f6",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=14",
+      "targets": [
+        ["index=14"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a30d8f9-82ed-4191-9344-ee88dcf74fde",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-11umpck:nth-child(3) .css-jxkh2s",
+      "targets": [
+        ["css=.css-11umpck:nth-child(3) .css-jxkh2s", "css:finder"],
+        ["xpath=//div[@id='65f7e60faecbd67416844410']/div[2]/div/div/div/div/div/div/div/div/div[2]/button[3]/div/div", "xpath:idRelative"],
+        ["xpath=//button[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cc3ecf8-05d5-48f8-863e-b4819a32b35d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-1mhzsiz",
+      "targets": [
+        ["css=.css-1mhzsiz", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef04b411-812e-414d-894b-9eaabaf5066c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-wrap:nth-child(3)",
+      "targets": [
+        ["css=.text-wrap:nth-child(3)", "css:finder"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Start New Chat')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c706946d-ca2a-4daa-a77d-070ff1d5393c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-wrap > div > div",
+      "targets": [
+        ["css=.text-wrap > div > div", "css:finder"],
+        ["xpath=//div[@id='65f7e61d1c5e6d429c510daf']/div[2]/div[2]/div/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3eec6388-24fb-443f-8c6c-b8d43ebe16db",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.text-wrap > div > div",
+      "targets": [
+        ["css=.text-wrap > div > div", "css:finder"],
+        ["xpath=//div[@id='65f7e61d1c5e6d429c510daf']/div[2]/div[2]/div/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "Hello, I am your Samsung Canada Online Shopping Agent. How may I assist you today?"
+    }, {
+      "id": "37dc8ea0-e56f-409e-90c6-73f9fb7765f9",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1622ffdf-ecae-4e77-9f3b-0f948ea43c78",
+    "name": "Delete_SupportChat",
+    "commands": [{
+      "id": "926f62bf-154c-41fd-8198-3d97ecf05a90",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.samsung.com/ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3837a91-7162-49a4-adc5-26b2a74839a9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9c80a77-f1b0-48dd-9bf7-5d879a16f3a9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30652b8d-bd48-485f-bc85-5aa7e8c1d454",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c042151e-4f2f-464c-bcc6-c2b3eb89ba1e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,542.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d928363d-12dd-4abe-8072-458c17b06516",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6812)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10b05e17-d24c-47ea-8bc0-2275e1c94a88",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6783.2001953125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b023338e-db21-40f3-95a9-cf930b8fe8fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-17ehq8p",
+      "targets": [
+        ["css=.css-17ehq8p", "css:finder"],
+        ["xpath=//div[@id='spr-chat__trigger-button']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59bbe6cf-32a0-4f33-a89c-44ebc2a3cf55",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=14",
+      "targets": [
+        ["index=14"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a32f794-6e13-4ddb-9482-4a3c70ee851b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-11umpck:nth-child(1) .css-jxkh2s",
+      "targets": [
+        ["css=.css-11umpck:nth-child(1) .css-jxkh2s", "css:finder"],
+        ["xpath=//div[@id='65f8747dc45cb70402c21ed0']/div[2]/div/div/div/div/div/div/div/div/div[2]/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fc3d8b3-3e4d-43a4-b497-0e5752d9201b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-1mhzsiz",
+      "targets": [
+        ["css=.css-1mhzsiz", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcb2a322-1f11-4a57-b8f5-80d96710c0b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-wrap:nth-child(1) .css-1v0cd8t",
+      "targets": [
+        ["css=.text-wrap:nth-child(1) .css-1v0cd8t", "css:finder"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Delete Chat History ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3239774c-02b9-465c-8a11-f52f27c03e3f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-kfe2o",
+      "targets": [
+        ["css=.css-kfe2o", "css:finder"],
+        ["xpath=//main/div[3]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa546a6f-68f0-4ec1-a803-5f8695f2f1d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-kfe2o",
+      "targets": [
+        ["css=.css-kfe2o", "css:finder"],
+        ["xpath=//main/div[3]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e34bfda3-41ec-4aad-8014-6346a4c2364b",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=confirmation-box-header",
+      "targets": [
+        ["id=confirmation-box-header", "id"],
+        ["css=#confirmation-box-header", "css:finder"],
+        ["xpath=//div[@id='confirmation-box-header']", "xpath:attributes"],
+        ["xpath=//main/div[3]/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "Delete Chat History"
+    }, {
+      "id": "a722ca6e-14aa-42d2-9ff3-d6d60934ebc7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-ms3icc",
+      "targets": [
+        ["css=.css-ms3icc", "css:finder"],
+        ["xpath=//div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8f60caa-abac-4d4e-80d5-f0c2e44f8db0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1siwjxe",
+      "targets": [
+        ["css=.css-1siwjxe", "css:finder"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "631cf0aa-f916-4a76-8029-577e5659ef72",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=span",
+      "targets": [
+        ["css=span", "css:finder"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'This conversation does not exist')]", "xpath:innerText"]
+      ],
+      "value": "This conversation does not exist"
+    }, {
+      "id": "8994d947-4148-45bd-8d36-51d4ea7dc156",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a218e933-14aa-4132-b772-54887e8f8dbf",
+    "name": "SupportButton_Header",
+    "commands": [{
+      "id": "8238d092-7dfb-4857-bb9e-7871e4a07220",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.samsung.com/ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "861dcb84-c992-4faa-b74c-df72bf8521bb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "784x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f825d7a-3a9f-4d80-be16-ed2c3595a96b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hamburger .icon",
+      "targets": [
+        ["css=.hamburger .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b757839-2bca-4c30-8fb0-1a611f864f3f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hamburger .icon",
+      "targets": [
+        ["css=.hamburger .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "44101a74-9f0c-494b-a087-4ae04ab1b72c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hamburger .icon",
+      "targets": [
+        ["css=.hamburger .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "856323a3-6790-48e2-9a3b-b35a023e3dc8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nv00-gnb__search-btn",
+      "targets": [
+        ["css=.nv00-gnb__search-btn", "css:finder"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bf69a8e-e39b-4f90-a0f6-8731e37449b9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.nv00-gnb__search-btn",
+      "targets": [
+        ["css=.nv00-gnb__search-btn", "css:finder"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecabe254-dea8-40b7-b5d5-314743193ef0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=LOG IN/Sign-Up",
+      "targets": [
+        ["linkText=LOG IN/Sign-Up", "linkText"],
+        ["css=.before-login > .nv00-gnb__user-account-link", "css:finder"],
+        ["xpath=//a[contains(text(),'LOG IN/Sign-Up')]", "xpath:link"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'LOG IN/Sign-Up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56f0efbd-45a6-4c74-97b3-e12aa7b6d3ee",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=LOG IN/Sign-Up",
+      "targets": [
+        ["linkText=LOG IN/Sign-Up", "linkText"],
+        ["css=.before-login > .nv00-gnb__user-account-link", "css:finder"],
+        ["xpath=//a[contains(text(),'LOG IN/Sign-Up')]", "xpath:link"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'LOG IN/Sign-Up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "440e316b-d98c-4c20-93e2-ee3b1466ba7b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.right-menu .nv00-gnb__l0-menu-btn",
+      "targets": [
+        ["css=.right-menu .nv00-gnb__l0-menu-btn", "css:finder"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[4]/ul[2]/li/button", "xpath:idRelative"],
+        ["xpath=//ul[2]/li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Support')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3012f974-842e-42ba-9fb8-17dc9da52a01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.right-side > .nv00-gnb__l1-menu-wrap:nth-child(4) .nv00-gnb__l1-menu-btn",
+      "targets": [
+        ["css=.right-side > .nv00-gnb__l1-menu-wrap:nth-child(4) .nv00-gnb__l1-menu-btn", "css:finder"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[4]/ul[2]/li/div/div[3]/div/h3", "xpath:idRelative"],
+        ["xpath=//ul[2]/li/div/div[3]/div/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Contact')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e95c2d16-d53e-4748-93ef-484485a68c74",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Chat",
+      "targets": [
+        ["linkText=Chat", "linkText"],
+        ["css=.right-side > .nv00-gnb__l1-menu-wrap:nth-child(4) .nv00-gnb__l2-menu:nth-child(1) > .nv00-gnb__l2-menu-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Chat')]", "xpath:link"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[4]/ul[2]/li/div/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ca/support/contact/#contactinfo')]", "xpath:href"],
+        ["xpath=//ul[2]/li/div/div[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Chat')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9156a54-8b8b-4b27-90a0-517891f445e4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Chat",
+      "targets": [
+        ["linkText=Chat", "linkText"],
+        ["css=.right-side > .nv00-gnb__l1-menu-wrap:nth-child(4) .nv00-gnb__l2-menu:nth-child(1) > .nv00-gnb__l2-menu-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Chat')]", "xpath:link"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[4]/ul[2]/li/div/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ca/support/contact/#contactinfo')]", "xpath:href"],
+        ["xpath=//ul[2]/li/div/div[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Chat')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40e80c54-2c8b-4a38-96c5-7c613530e97b",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Sign Language",
+      "targets": [
+        ["linkText=Sign Language", "linkText"],
+        ["css=.right-side > .nv00-gnb__l1-menu-wrap:nth-child(4) .nv00-gnb__l2-menu:nth-child(3) > .nv00-gnb__l2-menu-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign Language')]", "xpath:link"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[4]/ul[2]/li/div/div[3]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ca/support/sign-language/')]", "xpath:href"],
+        ["xpath=//ul[2]/li/div/div[3]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign Language')]", "xpath:innerText"]
+      ],
+      "value": "Sign Language"
+    }, {
+      "id": "635cadc3-0aff-459f-b46c-24570e551553",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Sign Language",
+      "targets": [
+        ["linkText=Sign Language", "linkText"],
+        ["css=.right-side > .nv00-gnb__l1-menu-wrap:nth-child(4) .nv00-gnb__l2-menu:nth-child(3) > .nv00-gnb__l2-menu-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign Language')]", "xpath:link"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[4]/ul[2]/li/div/div[3]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ca/support/sign-language/')]", "xpath:href"],
+        ["xpath=//ul[2]/li/div/div[3]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign Language')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6db23b93-597f-4584-869c-f3412addd57a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign Language",
+      "targets": [
+        ["linkText=Sign Language", "linkText"],
+        ["css=.right-side > .nv00-gnb__l1-menu-wrap:nth-child(4) .nv00-gnb__l2-menu:nth-child(3) > .nv00-gnb__l2-menu-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign Language')]", "xpath:link"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[4]/ul[2]/li/div/div[3]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ca/support/sign-language/')]", "xpath:href"],
+        ["xpath=//ul[2]/li/div/div[3]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign Language')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "912057ea-ba43-452d-a1c6-1f215068f042",
+      "comment": "",
+      "command": "click",
+      "target": "css=.home-kv-carousel__headline",
+      "targets": [
+        ["css=.home-kv-carousel__headline", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Sign Language Support')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "938272af-788e-49ec-9af7-e94e5cd1872c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.home-kv-carousel__headline",
+      "targets": [
+        ["css=.home-kv-carousel__headline", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Sign Language Support')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01a3c402-d314-4e12-9415-860026dcbaa6",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.home-kv-carousel__headline",
+      "targets": [
+        ["css=.home-kv-carousel__headline", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/section/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Sign Language Support')]", "xpath:innerText"]
+      ],
+      "value": "Sign Language Support"
+    }]
+  }, {
+    "id": "2fb7d678-7767-4524-8323-90a155e43d81",
+    "name": "Browse_Mobiles",
+    "commands": [{
+      "id": "9556ffb8-b705-4fec-8a57-55cfb9348a07",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.samsung.com/ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1606dc09-74a9-490f-b8db-9d11166a5645",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "784x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46c0b1b0-098c-4c1c-bb08-d2c0ed99bf3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hamburger > .nv00-gnb__utility-btn",
+      "targets": [
+        ["css=.hamburger > .nv00-gnb__utility-btn", "css:finder"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[5]/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Navigation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f37d832-3c97-4722-804e-fe92ea1c520e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=LOG IN/Sign-Up",
+      "targets": [
+        ["linkText=LOG IN/Sign-Up", "linkText"],
+        ["css=.before-login > .nv00-gnb__user-account-link", "css:finder"],
+        ["xpath=//a[contains(text(),'LOG IN/Sign-Up')]", "xpath:link"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'LOG IN/Sign-Up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6cf32f7-ff30-48c2-b868-abcef5caf758",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=LOG IN/Sign-Up",
+      "targets": [
+        ["linkText=LOG IN/Sign-Up", "linkText"],
+        ["css=.before-login > .nv00-gnb__user-account-link", "css:finder"],
+        ["xpath=//a[contains(text(),'LOG IN/Sign-Up')]", "xpath:link"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'LOG IN/Sign-Up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "682ab982-0854-4f8d-9b2a-bff8e291effd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.left-menu > .nv00-gnb__l0-menu:nth-child(1) > .nv00-gnb__l0-menu-btn",
+      "targets": [
+        ["css=.left-menu > .nv00-gnb__l0-menu:nth-child(1) > .nv00-gnb__l0-menu-btn", "css:finder"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[4]/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcee1c40-e449-4452-b3e8-af5d31c23a5d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.left-menu > .nv00-gnb__l0-menu:nth-child(1) > .nv00-gnb__l0-menu-btn",
+      "targets": [
+        ["css=.left-menu > .nv00-gnb__l0-menu:nth-child(1) > .nv00-gnb__l0-menu-btn", "css:finder"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[4]/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "321b4ce8-4f59-4ff1-a633-6856f832bc9f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nv00-gnb__l0-menu:nth-child(2) > .nv00-gnb__l0-menu-btn",
+      "targets": [
+        ["css=.nv00-gnb__l0-menu:nth-child(2) > .nv00-gnb__l0-menu-btn", "css:finder"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[4]/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Mobile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bd3fb88-e3ca-4749-a927-6470e9145f51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show > .nv00-gnb__l1-menu-container-title",
+      "targets": [
+        ["css=.show > .nv00-gnb__l1-menu-container-title", "css:finder"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[4]/ul/li[2]/div/p", "xpath:idRelative"],
+        ["xpath=//li[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Mobile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6751dfae-40b5-4384-8ea5-90584ecfdedc",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.show > .nv00-gnb__l1-menu-container-title",
+      "targets": [
+        ["css=.show > .nv00-gnb__l1-menu-container-title", "css:finder"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[4]/ul/li[2]/div/p", "xpath:idRelative"],
+        ["xpath=//li[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Mobile')]", "xpath:innerText"]
+      ],
+      "value": "Mobile"
+    }, {
+      "id": "43dca3b9-ebbc-4103-8f37-67f8be807f09",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Discover Mobiles",
+      "targets": [
+        ["linkText=Discover Mobiles", "linkText"],
+        ["css=.nv00-gnb__l1-menu:nth-child(1) > .nv00-gnb__l1-menu-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Discover Mobiles')]", "xpath:link"],
+        ["xpath=//nav[@id='component-id']/div[2]/div[4]/ul/li[2]/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ca/mobile/')]", "xpath:href"],
+        ["xpath=//li[2]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Discover Mobiles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00d1631d-0d48-42ab-bbe2-8af78c38a2ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nv14-visual-lnb__headline",
+      "targets": [
+        ["css=.nv14-visual-lnb__headline", "css:finder"],
+        ["xpath=//div[@id='component-id']/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Mobile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fde8e657-a4ed-48bc-96ca-504001533c17",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Mobile",
+      "targets": [
+        ["linkText=Mobile", "linkText"],
+        ["css=.nv14-visual-lnb__headline-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Mobile')])[2]", "xpath:link"],
+        ["xpath=//div[@id='component-id']/div/div/h1/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ca/mobile/')])[3]", "xpath:href"],
+        ["xpath=//h1/a", "xpath:position"]
+      ],
+      "value": "Mobile"
+    }, {
+      "id": "5bf7f5ea-cff9-4b04-b545-6996fc9438d1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3ab82ce0-9db5-4dbf-a273-4d51a4fd0032",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.samsung.com/"],
+  "plugins": []
+}
